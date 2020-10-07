@@ -1,5 +1,4 @@
-const students = [
-  {
+const students = [{
     name: 'ana',
     score: 7.4,
     hasPassed: true
@@ -42,3 +41,4 @@ const students = [
 ];
 
 // export students here:
+module.exports = students

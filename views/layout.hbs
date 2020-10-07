@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="/styles/style.css">
-        <title>Dynamic templating test</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Dynamic templating test</title>
+</head>
 
-    <body>
-        <nav>
-            <a href="/">Students</a>
-            <a href="/results">Test results</a>
-        </nav>
+<body>
+    <nav>
+        <a href="/">Students</a>
+        <a href="/results">Test results</a>
+    </nav>
 
-        {{!-- triple {{{}}} is a must --}}
-        {{!-- all other pages will be "plugged" in here --}}
-        {{{ body }}}
-    </body>
+    {{!-- triple {{{}}} is a must --}}
+    {{!-- all other pages will be "plugged" in here --}}
+    {{{ body }}}
+</body>
 
 </html>
